@@ -18,11 +18,11 @@ public class Contato {
 	private Long id;
 	
 	@NotBlank
-	private String nome;
+	private String nro_quarto;
 	
 	@NotNull
 	@Email
-	private String email;
+	private String status_limpeza;
 
 	public Long getId() {
 		return id;
@@ -33,19 +33,19 @@ public class Contato {
 	}
 
 	public String getNome() {
-		return nome;
+		return nro_quarto;
 	}
 
 	public void setNome(String nome) {
-		this.nome = nome;
+		this.nro_quarto = nome;
 	}
 
 	public String getEmail() {
-		return email;
+		return status_limpeza;
 	}
 
 	public void setEmail(String email) {
-		this.email = email;
+		this.status_limpeza = email;
 	}
 
 	@Override
